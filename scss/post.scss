@@ -1,0 +1,19 @@
+/* TecnoGecko Styling (No Layout Hacks) */
+
+/* Sleek green accent line under the top navigation bar */
+.navbar.fixed-top {
+    border-bottom: 3px solid #00ff9d !important;
+}
+
+/* Glow for the login box and cards */
+.card, .login-wrapper .card {
+    border: 1px solid rgba(0, 255, 157, 0.4) !important;
+    box-shadow: 0 4px 15px rgba(0, 255, 157, 0.1) !important;
+    border-radius: 8px;
+}
+
+/* Green focus state */
+.form-control:focus {
+    border-color: #00ff9d;
+    box-shadow: 0 0 0 0.2rem rgba(0, 255, 157, 0.25);
+}
