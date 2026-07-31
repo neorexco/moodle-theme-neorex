@@ -41,15 +41,22 @@
     <div id="page" class="container-fluid pt-5 mt-0">
         <div id="page-content" class="row">
             <div id="region-main-box" class="col-12">
-                <div id="region-main" class="col-12 h-100">
-                <div class="alert alert-success text-center mb-4">
-                    <h2>🚀 Neo Rex Theme Loaded!</h2>
-                    <p>This content is coming from <code>theme/neorex/templates/login.mustache</code>.</p>
-                </div>    
-                <div class="login-wrapper">
-                    <div class="login-container">
-                    {{{ output.main_content }}}
+                <div id="region-main" class="col-12 h-100">  
+                <div class="row min-vh-100">
+
+                    <div class="col-lg-7 hero-panel d-flex align-items-center justify-content-center">
+                        <div class="hero-content">
+                            <h1 class="hero-title">NeoRex</h1>
+                            <p class="hero-subtitle">Neo Remote E-learning Xperience</p>
+                        </div>
                     </div>
+
+                    <div class="col-lg-5 login-panel d-flex align-items-center justify-content-center">
+                        <div class="login-container">
+                            {{{ output.main_content }}}
+                        </div>
+                    </div>
+
                 </div>
                 </div>
             </div>
