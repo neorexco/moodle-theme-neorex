@@ -2,7 +2,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$THEME->name = 'infinityrex';
+$THEME->name = 'neorex';
 $THEME->sheets = [];
 $THEME->editor_sheets = [];
 $THEME->parents = ['boost'];
@@ -14,7 +14,7 @@ $THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_FLATNAV;
 $THEME->haseditswitch = true;
 
 $THEME->scss = function($theme) {
-    return theme_infinityrex_get_main_scss_content($theme);
+    return theme_neorex_get_main_scss_content($theme);
 };
 
 $THEME->setting_names = [

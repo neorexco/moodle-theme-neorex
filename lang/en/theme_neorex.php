@@ -5,9 +5,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 // A description shown in the admin theme selector.
-$string['choosereadme'] = 'Theme InfinityRex is a custom child theme of Boost.';
+$string['choosereadme'] = 'Theme NeoRex is a custom child theme of Boost.';
 // The name of our plugin.
-$string['pluginname'] = 'InfinityRex Theme';                                                                                                                               
+$string['pluginname'] = 'NeoRex Theme';                                                                                                                               
 // We need to include a lang string for each block region.
 $string['region-side-pre'] = 'Right';
 
@@ -18,7 +18,7 @@ $string['brandcolor'] = 'Brand colour';
 // The brand colour setting description.
 $string['brandcolor_desc'] = 'The accent colour.';
 // Name of the settings pages.
-$string['configtitle'] = 'InfinityRex settings';
+$string['configtitle'] = 'NeoRex settings';
 // Name of the first settings tab.
 $string['generalsettings'] = 'General settings';                                                                                                                             
 // Preset files setting.
